@@ -1,0 +1,413 @@
+TclClient started on : Thu Mar 15 12:56:10 2018
+
+
+isCompatibilityMode=FALSE
+
+
+DM_TRACE :TclClient::TclClient(TclClientLibDerived&) top/runtime/Tcl/TclClient.cc:92
+
+DM_TRACE :TclClientStates::TclClientStates(TclClientLibDerived&) top/runtime/Tcl/TclStates.cc:122
+
+DM_TRACE :TclNMCommands::TclNMCommands(TclClientLibDerived&) top/runtime/Tcl/TclTriggerCommands.cc:1371
+
+DM_TRACE :TclProjectCommands::TclProjectCommands(TclClientLibDerived&, int, char**) top/runtime/Tcl/TclProjectCommands.cc:118
+
+DM_TRACE :TclSetupCommands::TclSetupCommands(TclClientLibDerived&) top/runtime/Tcl/TclSetupCommands.cc:63
+
+DM_TRACE :TclSignalHandler::TclSignalHandler(TclClientLibDerived&) top/runtime/Tcl/TclSignalHandler.cc:77
+
+DM_TRACE :TclCheckPointCommands::TclCheckPointCommands(TclClientLibDerived&) top/runtime/Tcl/TclCheckPointCommands.cc:35
+
+DM_TRACE :void TclSignalHandler::RegisterSignalHandlers() top/runtime/Tcl/TclSignalHandler.cc:85
+TclClientLibDerived::SetGuiMode(1)
+
+VMW_HOME = /pkgs/mentor/veloce/v3007/Veloce_v3.0.0.7
+
+Version in library_versions.txt = 3.0.0.7,                      TclLibVersion = 3.0.0.7
+
+
+DM_TRACE :int TclProjectCommands::SetLogDir(const char*) top/runtime/Tcl/TclProjectCommands.cc:717
+
+DM_TRACE :Bool TclRegCommands::LoadSymbols() top/runtime/Tcl/TclRegCommands.cc:210
+Symbol list file veloce.med/symbol_rawdata/symbol_list.txt does not exist
+
+DM_TRACE :UserTcl::UserTcl() top/runtime/Tcl/UserTcl.cc:372
+
+DM_TRACE :UserTcl::~UserTcl() top/runtime/Tcl/UserTcl.cc:1991
+
+DM_TRACE :static void UserTcl::InitUserCommandsHelp() top/runtime/Tcl/UserTcl.cc:19705
+
+DM_TRACE :void TclClientStates::ResetEnvVars() top/runtime/Tcl/TclStates.cc:1083
+TclClientLibDerived::SetGuiMode(1)
+
+
+DM_TRACE :virtual int TclClientLibDerived::RegisterCallBack(TclClientLib::DmCallBackFunc5) top/runtime/Tcl/TclClientLibDerived.cc:1103
+
+DM_TRACE :virtual int TclClientLibDerived::RegisterGuiCommandExecCallBack(TclClientLib::DmTLGuiCommandExecCallBackFn) top/runtime/Tcl/TclClientLibDerived.cc:4677
+rawClient% project open -config veloce -shared
+
+rawClient% project open -config veloce -shared
+
+
+DM_TRACE :static int UserTcl::project(ClientData, Tcl_Interp*, int, char**) top/runtime/Tcl/UserTcl.cc:6724
+
+DM_TRACE :static int UserTcl::project_open(ClientData, Tcl_Interp*, int, char**) top/runtime/Tcl/UserTcl.cc:13429
+
+DM_TRACE :virtual int TclClientLibDerived::project_open(const char*, int, bool, bool, bool, const char*, bool, int, bool) top/runtime/Tcl/TclClientLibDerived.cc:3487
+
+DM_TRACE :int TclProjectCommands::project_open(const char*, int, bool, bool, bool, const char*, bool, int, bool) top/runtime/Tcl/TclProjectCommands.cc:250
+project_open("veloce", 0, 1, 0, 0, , 0, 300, 1)
+
+Before project open, pwd is /u/techavan/SV_emulation/Synth_DDR/Synth_DDR/emulation
+
+
+DM_TRACE :int TclProjectCommands::InitializeServers(bool, const char*) top/runtime/Tcl/TclProjectCommands.cc:2441
+
+DM_TRACE :int TclProjectCommands::startClnt(int, char**) top/runtime/Tcl/TclProjectCommands.cc:2673
+Info!     [TCLC-5614]: : Project already open. Owner is "techavan" and HostName
+                       "velocesolo.ece.pdx.edu" Attached to existing session
+
+
+[2018-03-15 12:56:11:449885 : 2618029920] DM_TRACE :int TclProjectCommands::TasksOnProjectOpen() top/runtime/Tcl/TclProjectCommands.cc:188
+[2018-03-15 12:56:11:449945 : 2618029920] TclClientProperties -- IsCompatibilityMode=0, IsMaster=1, IsLegacy=0 IsVelrun=1, IsVelview=0, IsCClient=0 IsConCClient=0
+
+[2018-03-15 12:56:11:450095 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:450102 : 2618029920] CMS_TextMsg_Message: Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:450420 : 2618029920] Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:450820 : 2618029920] DM_TRACE :int TclProjectCommands::GetAllProjectVariables() top/runtime/Tcl/TclProjectCommands.cc:880
+
+[2018-03-15 12:56:11:450875 : 2618029920] DM_TRACE :int TclProjectCommands::project_get_prjName(char**, Bool&) top/runtime/Tcl/TclProjectCommands.cc:1930
+[2018-03-15 12:56:11:451057 : 2618029920] project_get_prjName mPrjName = , mIsConfig = FALSE
+
+[2018-03-15 12:56:11:451091 : 2618029920] DM_TRACE :int TclProjectCommands::project_get_dbDir(char**) top/runtime/Tcl/TclProjectCommands.cc:1963
+
+[2018-03-15 12:56:11:490631 : 2618029920] DM_TRACE :int TclProjectCommands::project_get_prjFile(char**, Bool&) top/runtime/Tcl/TclProjectCommands.cc:2023
+
+[2018-03-15 12:56:11:490653 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:490660 : 2618029920] CMS_TextMsg_Message: Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:490904 : 2618029920] Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:530734 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:530742 : 2618029920] CMS_TextMsg_Message: Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:530838 : 2618029920] Warning     [CS-5114]: : No project is open currently
+[2018-03-15 12:56:11:530900 : 2618029920] project_get_prjFile mPrjName = , mIsConfig = FALSE
+
+[2018-03-15 12:56:11:530915 : 2618029920] DM_TRACE :int TclProjectCommands::project_get_prjDir(char**) top/runtime/Tcl/TclProjectCommands.cc:2082
+
+[2018-03-15 12:56:11:570625 : 2618029920] DM_TRACE :int TclProjectCommands::project_get_DesignLanguage(char**) top/runtime/Tcl/TclProjectCommands.cc:3292
+
+[2018-03-15 12:56:11:570639 : 2618029920] DM_TRACE :const char* TclProjectCommands::project_get_DesignLanguage() top/runtime/Tcl/TclProjectCommands.cc:3360
+
+[2018-03-15 12:56:11:570657 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:570663 : 2618029920] CMS_TextMsg_Message: Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:570746 : 2618029920] Warning     [CS-5114]: : No project is open currently
+[2018-03-15 12:56:11:574231 : 2618029920] TclClient::DmsTaskExited(Pid: 13613, taskname: ConfServer, userName: techavan, hostName: velocesolo.ece.pdx.edu
+
+[2018-03-15 12:56:11:583868 : 2618029920] DM_TRACE :int TclProjectCommands::getuseroption(const char*, char**) top/runtime/Tcl/TclProjectCommands.cc:2337
+[2018-03-15 12:56:11:583875 : 2618029920] getuseroption("suspendable", out<char**>
+)
+
+[2018-03-15 12:56:11:583895 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:583900 : 2618029920] CMS_TextMsg_Message: Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:584003 : 2618029920] Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:584014 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:584019 : 2618029920] CMS_TextMsg_Message: Error       [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:584112 : 2618029920] Error       [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:584123 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:584128 : 2618029920] CMS_TextMsg_Message: Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:584199 : 2618029920] Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:584210 : 2618029920] DM_TRACE :virtual bool TclClient::despatch(CMS_TextMsg_Message::v1*) top/runtime/Tcl/TclClient.cc:789
+[2018-03-15 12:56:11:584215 : 2618029920] CMS_TextMsg_Message: Warning     [CS-5114]: : No project is open currently
+
+[2018-03-15 12:56:11:584285 : 2618029920] Warning     [CS-5114]: : No project is open currently
+[2018-03-15 12:56:11:585600 : 2618029920] Error     [TCLC-5541]: : Could not process the command.
+
+[2018-03-15 12:56:11:585624 : 2618029920] DM_TRACE :int TclProjectCommands::ShutDown(DmShutdownMode_e, Bool) top/runtime/Tcl/TclProjectCommands.cc:2714
+[2018-03-15 12:56:11:585640 : 2618029920] TclRegCommands::applyBlockRegSet -- includeInt=TRUE
+
+[2018-03-15 12:56:11:585652 : 2618029920] DM_TRACE :void TclRegCommands::ClearBlockRegSet() top/runtime/Tcl/TclRegCommands.cc:349
+
+[2018-03-15 12:56:11:585668 : 2618029920] DM_TRACE :int TclMemoryCommands::applyBlockMemDownload(Bool) top/runtime/Tcl/TclMemoryCommands.cc:338
+[2018-03-15 12:56:11:585673 : 2618029920] aIsInternalCall=FALSE
+[2018-03-15 12:56:11:585860 : 2618029920] 
+SetSessionState 5
+[2018-03-15 12:56:11:587290 : 2618029920] TclClientStates::SetSessionState Failed to open SessionState file .sessionstate Error Error: File : No such file or directory
+[2018-03-15 12:56:11:587308 : 2618029920] TclSetupCommands::UpdateDesignStateInES DesignState cESInBetweenTests 
+
+[2018-03-15 12:56:11:587326 : 2618029920] DM_TRACE :SInt32 TclSetupCommands::MayBeCreateECInterface(String&) top/runtime/Tcl/TclSetupCommands.cc:1880
+[2018-03-15 12:56:11:632495 : 2618029920] MayBeCreateECInterface retVal 13 Err Enterprise Server not found. Please launch it before continuing.
+[2018-03-15 12:56:11:632508 : 2618029920] DesignReservedState 2 IsDesignReservedThroughES FALSE
+[2018-03-15 12:56:11:632522 : 2618029920] TclSignalHandler::DeleteSessionSuspendAction aDestroyAction TRUE
+[2018-03-15 12:56:11:632528 : 2618029920] TclSignalHandler::DeleteSessionSuspendAction NULL ACTION 0
+
+[2018-03-15 12:56:11:632536 : 2618029920] DM_TRACE :int TclProjectCommands::KillNexus(DmShutdownMode_e, bool, Bool) top/runtime/Tcl/TclProjectCommands.cc:2755
+
+[2018-03-15 12:56:11:632547 : 2618029920] DM_TRACE :int TclMemoryCommands::CloseRemoteBulkMemUpldChannels() top/runtime/Tcl/TclMemoryCommands.cc:571
+[2018-03-15 12:56:11:632553 : 2618029920] Bulk Mem Upld Channels not open.
+
+[2018-03-15 12:56:11:632569 : 2618029920] DM_TRACE :int TclMemoryCommands::CloseLocalBulkMemDnldChannels() top/runtime/Tcl/TclMemoryCommands.cc:471
+[2018-03-15 12:56:11:632579 : 2618029920] Bulk Mem Dnld Channels not open.
+
+[2018-03-15 12:56:11:632587 : 2618029920] DM_TRACE :int TclMemoryCommands::CloseLocalBulkMemUpldChannels() top/runtime/Tcl/TclMemoryCommands.cc:597
+[2018-03-15 12:56:11:632592 : 2618029920] Bulk Mem Upld Channels not open.
+
+[2018-03-15 12:56:11:632601 : 2618029920] DM_TRACE :void TclClientLibDerived::Reset() top/runtime/Tcl/TclClientLibDerived.cc:4433
+
+[2018-03-15 12:56:11:632611 : 2618029920] DM_TRACE :void TclClientStates::FlushCmdStack() top/runtime/Tcl/TclStates.cc:1600
+
+[2018-03-15 12:56:11:632622 : 2618029920] DM_TRACE :void TclClientStates::MayBeSuspendSession() top/runtime/Tcl/TclStates.cc:1624
+
+[2018-03-15 12:56:11:632628 : 2618029920] DM_TRACE :Bool TclSignalHandler::IsSuspendActionCalled() const top/runtime/Tcl/TclSignalHandler.h:74
+
+[2018-03-15 12:56:11:632641 : 2618029920] DM_TRACE :void TclMemoryCommands::ClearBlockMemDownload() top/runtime/Tcl/TclMemoryCommands.cc:388
+
+[2018-03-15 12:56:11:632647 : 2618029920] DM_TRACE :int TclMemoryCommands::CloseLocalBulkMemDnldChannels() top/runtime/Tcl/TclMemoryCommands.cc:471
+[2018-03-15 12:56:11:632651 : 2618029920] Bulk Mem Dnld Channels not open.
+
+[2018-03-15 12:56:11:632656 : 2618029920] DM_TRACE :int TclMemoryCommands::CloseLocalBulkMemUpldChannels() top/runtime/Tcl/TclMemoryCommands.cc:597
+[2018-03-15 12:56:11:632661 : 2618029920] Bulk Mem Upld Channels not open.
+
+[2018-03-15 12:56:11:632940 : 2618029920] DM_TRACE :void TclProjectCommands::Clean() top/runtime/Tcl/TclProjectCommands.cc:2699
+
+[2018-03-15 12:56:11:633002 : 2618029920] DM_TRACE :void TclClientStates::FlushCmdStack() top/runtime/Tcl/TclStates.cc:1600
+
+[2018-03-15 12:56:11:633010 : 2618029920] DM_TRACE :void TclClientStates::MayBeSuspendSession() top/runtime/Tcl/TclStates.cc:1624
+
+[2018-03-15 12:56:11:633015 : 2618029920] DM_TRACE :Bool TclSignalHandler::IsSuspendActionCalled() const top/runtime/Tcl/TclSignalHandler.h:74
+
+[2018-03-15 12:56:11:633045 : 2618029920] DM_TRACE :virtual int TclClientLibDerived::isToWaitForCallBack(bool*, int*) top/runtime/Tcl/TclClientLibDerived.cc:1221
+
+[2018-03-15 12:56:11:633052 : 2618029920] DM_TRACE :Bool TclClientStates::IsAsyncCallWithinBlockingWaitByGui() const top/runtime/Tcl/TclStates.h:770
+[2018-03-15 12:56:11:633060 : 2618029920] No, we dont' have to wait
+[2018-03-15 12:56:11:645686 : 2618029920] rawClient% showallcommands -noprint 
+[2018-03-15 12:56:11:645728 : 2618029920] rawClient% showallcommands   
+
+[2018-03-15 12:56:11:645751 : 2618029920] DM_TRACE :static int UserTcl::showallcommands(ClientData, Tcl_Interp*, int, char**) top/runtime/Tcl/UserTcl.cc:6917
+[2018-03-15 12:56:11:646328 : 2618029920] Info!     [TCLC-5501]: : Commands are :
+                       checkpoint
+                       configure
+                       load
+                       connect
+                       disableio
+                       disconnect
+                       enableio
+                       hwaccess
+                       sethost
+                       setdebussyhost
+                       setup
+                       userbit
+                       targetpower
+                       onerror
+                       reinitialize
+                       dontDisableCommands
+                       disabletbxquestamode
+                       setlowpowercorruptmode
+                       getsimtime
+                       bp
+                       clock
+                       continue
+                       debussy
+                       dumpallhelp
+                       exit
+                       getenv
+                       getuseroption
+                       help
+                       hwclock
+                       memory
+                       project
+                       quit
+                       run
+                       setenv
+                       reg
+                       replay
+                       velwavegen
+                       setuseroption
+                       settimeout
+                       showcommands
+                       stop
+                       system
+                       hwtrace
+                       trace
+                       trigger
+                       upload
+                       waitfor
+                       seteventseverity
+                       showallcommands
+                       msg
+                       ren
+                       isthistheonlyclient
+                       numofclients
+                       checkstopreason
+                       hwevent
+                       prepare_waveform
+                       isregister
+                       comodcmd
+                       comodelstate
+                       isdesignreservedthroughes
+                       dcd
+                       velcomp
+                       cmd
+                       llsw
+                       ringbus
+                       comodelreset
+                       showinternalcommands
+                       internalbp
+                       setlogging
+                       comodinitdone
+                       getfpgadebugreg
+                       setvapiflag
+                       sendendpatterntocomod
+                       setbgguimode
+                       registertclprocforccallback
+                       updatecomodstate
+                       internalcomodcommand
+                       csOpenProject
+                       csCreateProject
+                       csCloseProject
+                       csSaveProject
+                       csSaveProjectAs
+                       csImportProject
+                       csCopyProject
+                       csLockDatabase
+                       csUnLockDatabase
+                       csCleanProject
+                       csArchiveProject
+                       csProjectState
+                       csLockStatus
+                       csProjectName
+                       csGetCommandSequence
+                       csGetCommandArray
+                       csGetUID
+                       csGetSignalName
+                       csGetLogicalLoc
+                       csGetLutCPBAddress
+                       csGetLutCPBAddrFromCVid
+                       csGetStateCPBAddress
+                       csGetStateCPBAddrFromCVid
+                       csGetStateCpbLocArr
+                       csGetTraceMcrAddrFromCVid
+                       csGetScanChainAddress
+                       csGetScanChainAddrFromCVid
+                       csGetNumOfScanChunks
+                       csGetLutCpbLocArr
+                       csGetSELocFromName
+                       csGetSigAliases
+                       csGetUIDAliases
+                       csGetCanonicalUID
+                       csGetCanonicalName
+                       csVerifySigName
+                       csTestStateInit
+                       csIsTriggerableNet
+                       csGetNetAnnotation
+                       csRegisterFile
+                       csWriteFile
+                       csReadFile
+                       csIsCoherent
+                       csSetOption
+                       csGetOption
+                       csGetExpandedOption
+                       csGetBaseDirPath
+                       csGetCurrConfNum
+                       csSetCurrConfNum
+                       csSetCwd
+                       csAddBreakpoint
+                       csAddBP
+                       csDeleteBreakpoint
+                       csDeleteBP
+                       csDisableBreakpoint
+                       csDisableBP
+                       csEnableBreakpoint
+                       csEnableBP
+                       csGetLBPMap
+                       csDeleteAllBP
+                       csGetAllBP
+                       csWait
+                       csIsMemoryUid
+                       csSetInitMemContFile
+                       csSetInitMemContList
+                       csSaveInitMemContList
+                       csRestoreDefaultInitMemCont
+                       csAddMemContFile
+                       csGetMemContFile
+                       csGetAllMemContFile
+                       csMemInstNames
+                       csMemInstUids
+                       csMemInfo
+                       csVerifyMemInterface
+                       csSetMemContInfo
+                       csRestoreMemFromPattern
+                       csGetEnabledBP
+                       csGetDisabledBP
+                       csGetBPLinesInModule
+                       nxsGetConnectedApps
+                       csReInitialize
+                       csBinMemDownload
+                       csBinMemUpload
+                       csClearAllMemory
+                       csGetMasterClk
+                       csGetMasterDomain
+                       csSetMasterClk
+                       csSetMasterDomain
+                       csListClks
+                       csListDomains
+                       csClkInfo
+                       csSetReg
+                       csGetLACounterTimer
+                       csGetAllDomainCounters
+                       csOpenDatabase
+                       csSetAllMfc
+                       csGetAllMfc
+                       csSetEventSeverity
+                       csAddCheckpoint
+                       csRestoreCheckpoint
+                       csClearAllCheckpoints
+                       csDeleteCheckpoint
+                       csGetAllCheckpoints
+                       csSetDebugParams
+                       csGetBOC
+                       csDeleteShadow
+                       csUpdateShadow
+                       csGetRegCvid
+                       csGetDesignInfo
+                       csMinTraceDepth
+                       csIsDesignUsingISV
+                       csTraceOn
+                       csSuspendClock
+                       csResumeClock
+                       csGetFastestClock
+                       csGetFPGADebugReg
+                       csOpenECDB
+                       csCloseECDB
+                      
+[2018-03-15 12:56:11:646397 : 2618029920] Info!     [TCLC-5668]: : For more help on any command give
+                       "<command name> -help" OR "help <command name> -verbose"
+
+[2018-03-15 12:56:11:646439 : 2618029920] DM_TRACE :virtual int TclClientLibDerived::isToWaitForCallBack(bool*, int*) top/runtime/Tcl/TclClientLibDerived.cc:1221
+
+[2018-03-15 12:56:11:646448 : 2618029920] DM_TRACE :Bool TclClientStates::IsAsyncCallWithinBlockingWaitByGui() const top/runtime/Tcl/TclStates.h:770
+[2018-03-15 12:56:11:646458 : 2618029920] No, we dont' have to wait
+[2018-03-15 12:56:11:666617 : 2618029920] rawClient% quit
+[2018-03-15 12:56:11:666631 : 2618029920] rawClient% quit
+
+[2018-03-15 12:56:11:666645 : 2618029920] DM_TRACE :static int UserTcl::exit(ClientData, Tcl_Interp*, int, char**) top/runtime/Tcl/UserTcl.cc:7142
+
+[2018-03-15 12:56:11:666669 : 2618029920] DM_TRACE :virtual int TclClientLibDerived::isToWaitForCallBack(bool*, int*) top/runtime/Tcl/TclClientLibDerived.cc:1221
+
+[2018-03-15 12:56:11:666675 : 2618029920] DM_TRACE :Bool TclClientStates::IsAsyncCallWithinBlockingWaitByGui() const top/runtime/Tcl/TclStates.h:770
+[2018-03-15 12:56:11:666680 : 2618029920] No, we dont' have to wait
+
+[2018-03-15 12:56:11:701483 : 2618029920] DM_TRACE :void TclClientLibDerived::OnExit() top/runtime/Tcl/TclClientLibDerived.cc:840
+
+[2018-03-15 12:56:11:701522 : 2618029920] DM_TRACE :int TclProjectCommands::OnExit() top/runtime/Tcl/TclProjectCommands.cc:3071
+[2018-03-15 12:56:11:701528 : 2618029920] TclProjectCommands::OnExit mIsSystemUp FALSE

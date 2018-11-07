@@ -1,0 +1,4 @@
+
+WARNING[901]  The argument passed ( Type :  VE_NET , File : /u/techavan/SV_emulation/Synth_DDR/Synth_DDR/emulation/top.sv, Line : 4 ) to the function ( veVariableGetIsPort ) is not of expected type. (File : tport_handle.cxx, Line : 173)
+
+WARNING[901]  The argument passed ( Type :  VE_NET , File : /u/techavan/SV_emulation/Synth_DDR/Synth_DDR/emulation/cpu.sv, Line : 2 ) to the function ( veVariableGetIsPort ) is not of expected type. (File : tport_handle.cxx, Line : 173)
